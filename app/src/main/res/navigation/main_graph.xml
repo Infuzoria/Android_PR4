@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_graph"
+    app:startDestination="@id/fragment_Start">
+
+    <fragment
+        android:id="@+id/fragment_Start"
+        android:name="com.example.myapplication.Fragment_Start"
+        android:label="fragment__start"
+        tools:layout="@layout/fragment__start" />
+    <fragment
+        android:id="@+id/fragment_Homework"
+        android:name="com.example.myapplication.Fragment_Homework"
+        android:label="fragment__homework"
+        tools:layout="@layout/fragment__homework" />
+    <fragment
+        android:id="@+id/fragment_Courses"
+        android:name="com.example.myapplication.Fragment_Courses"
+        android:label="fragment__courses"
+        tools:layout="@layout/fragment__courses" />
+</navigation>

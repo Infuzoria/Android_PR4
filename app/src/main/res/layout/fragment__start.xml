@@ -90,4 +90,22 @@
         android:src="@drawable/___2023_03_30_00_50_42_photoroom_png_photoroom"
         tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
 
+    <Button
+        android:id="@+id/message"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="430dp"
+        app:fontFamily="@font/consolas_bold"
+        android:text="Уведомление" />
+
+    <Button
+        android:id="@+id/server"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:layout_marginLeft="170dp"
+        android:layout_marginTop="430dp"
+        app:fontFamily="@font/consolas_bold"
+        android:text="Баннер" />
+
 </FrameLayout>
